@@ -1,0 +1,38 @@
+### Получить все вопросы
+GET http://localhost:8080/exam/java
+
+### Добавить вопрос 1
+GET http://localhost:8080/exam/java/add?question=QuestionText1&answer=QuestionAnswer1”
+
+### Добавить вопрос 2
+GET http://localhost:8080/exam/java/add?question=QuestionText2&answer=QuestionAnswer2”
+
+### Добавить вопрос 3
+GET http://localhost:8080/exam/java/add?question=QuestionText3&answer=QuestionAnswer3”
+
+### Добавить вопрос 4
+GET http://localhost:8080/exam/java/add?question=QuestionText4&answer=QuestionAnswer4”
+
+### Добавить вопрос 5
+GET http://localhost:8080/exam/java/add?question=QuestionText5&answer=QuestionAnswer5”
+
+### Добавить вопрос 6
+GET http://localhost:8080/exam/java/add?question=QuestionText6&answer=QuestionAnswer6”
+
+### Добавить вопрос 7
+GET http://localhost:8080/exam/java/add?question=QuestionText7&answer=QuestionAnswer7”
+
+### Добавить вопрос 8
+GET http://localhost:8080/exam/java/add?question=QuestionText8&answer=QuestionAnswer8”
+
+### Добавить вопрос 9
+GET http://localhost:8080/exam/java/add?question=QuestionText9&answer=QuestionAnswer9”
+
+### Добавить вопрос 10
+GET http://localhost:8080/exam/java/add?question=QuestionText10&answer=QuestionAnswer10”
+
+### Удалить вопрос 2
+GET http://localhost:8080/exam/java/remove?question=QuestionText2&answer=QuestionAnswer2”
+
+### Получить нужное количество вопросов
+GET http://localhost:8080/exam/get/{{amount}}

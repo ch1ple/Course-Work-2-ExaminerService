@@ -1,0 +1,38 @@
+### Получить все вопросы
+GET http://localhost:8080/exam/math
+
+### Добавить вопрос 1
+GET http://localhost:8080/exam/math/add?question=2 * 3&answer=6
+
+### Добавить вопрос 2
+GET http://localhost:8080/exam/math/add?question=90 / 5&answer=18
+
+### Добавить вопрос 3
+GET http://localhost:8080/exam/math/add?question=2 ^ 4&answer=16
+
+### Добавить вопрос 4
+GET http://localhost:8080/exam/math/add?question=60 - 10&answer=50
+
+### Добавить вопрос 5
+GET http://localhost:8080/exam/math/add?question=55 %2B 55&answer=110
+
+### Добавить вопрос 6
+GET http://localhost:8080/exam/math/add?question=55 - 55&answer=0
+
+### Добавить вопрос 7
+GET http://localhost:8080/exam/math/add?question=5!&answer=120
+
+### Добавить вопрос 8
+GET http://localhost:8080/exam/math/add?question=8 * 8&answer=64
+
+### Добавить вопрос 9
+GET http://localhost:8080/exam/math/add?question=5 %25 3&answer=2
+
+### Добавить вопрос 10
+GET http://localhost:8080/exam/math/add?question=log(2)&answer=8
+
+### Удалить вопрос 2
+GET http://localhost:8080/exam/math/remove?question=55 \  55&answer=110
+
+### Получить нужное количество вопросов
+GET http://localhost:8080/exam/get/{{amount}}
